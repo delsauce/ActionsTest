@@ -25,7 +25,9 @@ AlignConsecutiveAssignments: 'AcrossComments'
 
 # Not covered by coding standard, but should be proposed?
 AlignConsecutiveBitFields: 'AcrossComments'
-AlignArrayOfStructures: 'Left'
+
+# Only available in 13, which is still in dev
+# AlignArrayOfStructures: 'Left'
 
 # Make sure default values are enforced
 #SpacesInCStyleCastParentheses: 'false'
