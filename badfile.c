@@ -1,32 +1,23 @@
 // This is a bad file
 
-int main(int argc, char *argv[])
-{
-        while (x == y)
+int main(int argc, char *argv[]) {
+    while (true) 
     {
-                something();
-                somethingelse();
-            
-        if (some_error)
-        {
-                        do_correct();
-                    
-        }
-        else if (another_error)
-        {
-                            do_correct();
-                    
-        }
-           
-        else { continue_as_usual(); }
-
-        if (true) {
-            good();
-        }
+            // comment
+        if (something) {
+                   do_something();}
         else {
-            bad();
-        }
-            
-    }
-      finalthing();
+    do_something_else();
+     }
+  }
+
+    if (not_bad) { good(); }
+    else if (so_so) {
+ ok();
+    }else {
+        bad_bad_bad();}
+    
+finally();
 }
+
+
