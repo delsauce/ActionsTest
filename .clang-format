@@ -1,36 +1,4 @@
 ---
-AlignConsecutiveMacros: 'true'
-AlignEscapedNewlines: Right
-AlignOperands: 'true'
-
-# FMT01.2
 BreakBeforeBraces: Stroustrup
-
-# FMT04.1
-SpaceBeforeParens: ControlStatements
-
-# FMT04.3
-SpaceBeforeAssignmentOperators: 'true'
-
-# FMT05.1
 IndentWidth: '4'
-TabWidth: '4'
-UseTab: Never
-
-#FMT05.2
-AlignConsecutiveDeclarations: 'AcrossComments'
-
-# FMT05.4
-AlignConsecutiveAssignments: 'AcrossComments'
-
-# Not covered by coding standard, but should be proposed?
-AlignConsecutiveBitFields: 'AcrossComments'
-
-# Only available in 13, which is still in dev
-# AlignArrayOfStructures: 'Left'
-
-# Make sure default values are enforced
-#SpacesInCStyleCastParentheses: 'false'
-#SpacesInContainerLiterals: 'false'
-
 ...
