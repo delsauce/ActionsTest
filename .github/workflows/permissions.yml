@@ -33,6 +33,13 @@ jobs:
         with:
           repository: delsauce/private-test
           token: ${{ steps.get_installation_token.outputs.token }}
-          path: prvate1
+          path: private1
+          
+      - name: checkout another another repo
+        uses: actions/checkout@v3
+        with:
+          repository: delsauce/private-test2
+          token: ${{ steps.get_installation_token.outputs.token }}
+          path: prvate2
     
     
