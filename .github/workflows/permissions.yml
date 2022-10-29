@@ -21,7 +21,7 @@ jobs:
       - name: Checkout local source
         uses: actions/checkout@v3
         
-      -name: checkout another repo
+      - name: checkout another repo
         uses: actions/checkout@v3
         with:
           repository: delsauce/ArduinoDueHiFi
