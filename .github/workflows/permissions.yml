@@ -24,7 +24,7 @@ jobs:
       - name: checkout another repo
         uses: actions/checkout@v3
         with:
-          repository: delsauce/ArduinoDueHiFi
+          repository: delsauce/private-test
           path: hifi
     
     
